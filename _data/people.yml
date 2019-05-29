@@ -1,0 +1,50 @@
+# ***************************************************
+# PROFILE ENTRIES
+# ***************************************************
+
+mauro-dragone:
+    display_name: "Dr Mauro Dragone"
+    webpage: "https://www.hw.ac.uk/staff/uk/eps/mauro-dragone.htm"
+    role: faculty
+    image: /img/people/mauro-dragone.jpg
+    bio: Assistant Professor
+
+scott-mcleod:
+    display_name: "Scott McLeod"
+    role: grad
+    image: /img/people/default.png
+    bio: Postgraduate Research Student
+
+ronnie-smith:
+    display_name: "Ronnie Smith"
+    webpage: "https://www.edinburgh-robotics.org/students/ronnie-smith-cohort-student-representative"
+    role: grad
+    image: /img/people/ronnie-smith.jpg
+    bio: Postgraduate Research Student
+
+mario-parra-rodriguez:
+    display_name: "Dr Mario Parra Rodriguez"
+    role: collab
+    bio: "University of Strathclyde"
+
+sihang-chen:
+    display_name: "Sihang Chen"
+    role: ugrad-alum
+    bio: "BEng in Something Something"
+
+# ***************************************************
+# OTHER PROFILE TYPE TEMPLATES
+# ***************************************************
+
+# postdoc-a:
+#     display_name: "Postdoc A"
+#     role: postdoc
+
+# alum-a:
+#     display_name: "Alum A"
+#     role: alum
+#     bio: "Ph.D., 2013. Now at Microsoft Research."
+
+# ugrad:
+#     display_name: "Ugrad A"
+#     role: ugrad
