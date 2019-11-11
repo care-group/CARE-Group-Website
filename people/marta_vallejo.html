@@ -1,0 +1,51 @@
+---
+layout: default
+title: Dr. Marta Vallejo
+notitle: true
+---
+{% assign person = include.person %}
+
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
+        {% include person.html person=person image=true %}
+    {% endif %}
+{% endfor %}
+
+<section>
+
+    <div class="container" style="margin: 0pt; padding: 0%;">
+        <div class="row">
+            <div class="col-md-auto">
+                <div class="jumbotron" style="font-size: 100%;">
+                    <p class="text-center">
+                        <img class="rounded-circle profile"
+                        alt="Dr Marta Vallejo"
+                        src="/img/people/marta-vallejo.jpg"
+                        width = 200pt />
+                    </p>
+                    <p class="text-center">
+                        <strong>Dr. Marta Vallejo</strong><br>
+                        Research Fellow
+                    </p>
+                    <hr>
+                    <p>
+                        <i class="fa fa-envelope-o"></i>&nbsp; e.address@hw.ac.uk <br>
+                        <i class="fa fa-twitter"></i>&nbsp; @m.vallejo <br>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <p class="font-weight-bold m-0 p-0">Biography</p>
+                <p>
+                    Dr Marta Vallejo is a tenure track research fellow in biomedical signal and image processing. She was head of AI and machine learning at <a href="www.clearskymd.com">ClearSky Medical Diagnostics Ltd</a>. She holds a PhD in computational intelligence and predictive modelling and has since worked on several research projects in the areas of deep learning, evolutionary algorithms and predictive modelling. Notably, she was the lead researcher for "A Multiobjective Evolutionary Approach to Understanding Parkinson's Disease", a project that saw the development of new predictive models for Parkinson’s disease management and currently she works in Proteus project. The Proteus project is focused on the treatment of critically ill respiratory patients using advanced microendoscopic imaging and sensing technologies. Dr Vallejo has also worked as a project manager on a number of EU research projects.
+                </p>
+
+                <p class="font-weight-bold m-0 p-0">Research Interests</p>
+                <p>
+                    My research interests are at the intersection of machine learning and healthcare (neurodegenerative diseases. My work focuses on the creation of advanced classification algorithms for diagnosis, prognosis and understanding of Parkinson's Disease using different machine learning methods like deep learning and evolutionary algorithms.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

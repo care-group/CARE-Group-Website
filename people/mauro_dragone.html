@@ -1,0 +1,54 @@
+---
+layout: default
+title: Dr. Mauro Dragone
+notitle: true
+---
+{% assign person = include.person %}
+
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
+        {% include person.html person=person image=true %}
+    {% endif %}
+{% endfor %}
+
+<section>
+
+    <div class="container" style="margin: 0pt; padding: 0%;">
+        <div class="row">
+            <div class="col-md-auto">
+                <div class="jumbotron" style="font-size: 100%;">
+                    <p class="text-center">
+                        <img class="rounded-circle profile"
+                        alt="Dr Mauro Dragone"
+                        src="/img/people/mauro-dragone.jpg"
+                        width = 200pt />
+                    </p>
+                    <p class="text-center">
+                        <strong>Dr. Mauro Dragone</strong><br>
+                        Associate Professor
+                    </p>
+                    <hr>
+                    <p>
+                        <i class="fa fa-envelope-o"></i>&nbsp; e.address@hw.ac.uk <br>
+                        <i class="fa fa-twitter"></i>&nbsp; @m.dragone <br>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <p class="font-weight-bold m-0 p-0">Biography</p>
+                <p>
+                I received a BSc (110/110 Cum Laude) degree in Computer Science from Bologna University, in 1999, and worked as a software developer and project manager in the software industry before returning to academia and receiving a PhD degree from University College Dublin (UCD), in 2009. Between 2009 and 2011 I was a postdoctoral researcher in UCD, where I worked in the Adaptive Information Cluster (AIC) and in the Insight Centre for Data Analytics. I have been co-principal investigator on a number of European/National projects in the area of embedded sensor systems, wireless sensor networks and intelligent buildings spaces including the EU projects <a href="http://www.fiemser.eu/">FIEMSER</a> and <a href="http://hobnet-testbeds.eu/">HOBNET</a>. In 2011 I initiated the FP7 project <a href="http:/www./fp7rubicon.eu">RUBICON (Robotic UBIquitous Cognitive Network)</a>, a 2.5 million EUR project (completed in 2014) that has posed the foundations for self-adaptive ecologies of robotic and sensing devices. I have successfully led an international scientific team exploring this domain, leading to numerous publications, open source software, industrial prototypes and demonstration systems in smart housing and transport. From 2014 to 2016 I was a Research Fellow with the Distributed Systems Group (DSG), School of Computer Science and Statistics.
+                </p>
+                <p>
+                Since 2016, I am an Assistant Professor at the School of Engineering and Physical Sciences at Heriot-Watt University in Edinburgh, UK. My research expertise includes robotics, human-robot interaction, multi-agent systems, software engineering and internet of things. I am one of the PhD supervisors at the Edinburgh Centre for Robotics and I am co-investigator in the UK projects ORCA-Hub (orcahub.org) and <a href="research.ncl.ac.uk/usmart">USMART</a>, developing intelligent sensors and robot networks for monitoring of underwater environments. I also set up the Robotic Assisted Living Testbed, a home-like environment where roboticists and computer scientists, and also usability and health experts, psychologists, and sociologists, can work alongside people with assisted living needs and those supporting them, to co-design and test innovative solutions for healthy ageing and assisted living.
+                </p>
+
+                <p class="font-weight-bold m-0 p-0">Research Interests</p>
+                <p>
+                    My current research focuses on building smart spaces combining sensors, actuators and robots working together to accomplish complex tasks while also adapting to new environments and to changing and evolving requirements with minimum human supervision. This can lead to cheaper, smarter and more useful applications for IoT and Robotic technology. My long-term goal is to further the potential of these systems by improving their ability to interact with humans and to operate in a wide range of application domains.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

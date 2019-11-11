@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Code
+title: 
 ---
-This is an example of an additional page you could add to the site (and its navigation).
 
-If you like this template, find our group's other code here:
+Much of our published software is made available under an open-source licence.
 
- * [uwsampa on GitHub](https://github.com/uwsampa/)
+Visit our organisation GitHub page to access all of our publicly published repositories.
+
+<div class="github-card" data-github="care-group" data-width="100%" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

@@ -3,13 +3,18 @@ layout: default
 title: People
 
 picture-role-groups:
-- {roles: [faculty, postdoc, staff], width: 4}
-- {roles: [grad], width: 8}
+- {roles: [faculty, postdoc, staff], width: 12}
+- {roles: [grad], width: 12}
+- {roles: [msc], width: 12}
 
 no-picture-role-groups:
-- {roles: [collab, ugrad, ugrad-alum], width: 5}
-- {roles: [alum], width: 7}
+- {roles: [alum], width: 12}
+- {roles: [collab, ugrad, ugrad-alum], width: 12}
 ---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim nisi, fringilla sed diam sit amet, ornare tincidunt felis. Proin tincidunt eros tortor, vel tincidunt libero vehicula eu. Aenean ornare ligula sapien. Nulla pretium nisi nec faucibus consectetur. Pellentesque vitae interdum velit. Nullam tristique quam eget pellentesque pulvinar. Donec non dui gravida purus dignissim accumsan. Morbi id tempor tortor, a lacinia quam. Sed fermentum, leo porttitor mattis commodo, purus nunc elementum neque, sed luctus ante metus vel orci. Aenean vulputate egestas massa ac convallis. Curabitur pulvinar, nisl ac iaculis accumsan, arcu risus tincidunt massa, sed blandit est leo in mauris. Etiam tempus risus vitae est pulvinar auctor.xt
+
+<br><br>
 
 <section class="people row justify-content-between">
     {% for role-group in page.picture-role-groups %}
@@ -18,6 +23,13 @@ no-picture-role-groups:
                 {% include role-people.html role=role image=true %}
             {% endfor %}
         </div>
+    {% endfor %}
+
+    {% for item in site.data.people %}
+        {% assign person = item[1] %}
+        {% if person.role == role.key %}
+            {% include person.html person=person image=true %}
+        {% endif %}
     {% endfor %}
 </section>
 

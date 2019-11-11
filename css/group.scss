@@ -32,6 +32,13 @@ body {
     }
 }
 
+@media only screen and (max-device-width: 480px) {
+    .footer {
+        padding-left: 5%;
+        padding-right: 5%;  
+    }
+}
+
 .fa {
     color: $gray;
 }
@@ -61,6 +68,21 @@ a > .fa {
     // width: 154px;
     // height: 35px;
     margin: 2px 0 8px 0;
+}
+
+.affiliation {
+    width: 50%;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .affiliation {
+        width: 70%;
+    }
 }
 
 /* Front page news. */
@@ -133,6 +155,10 @@ section {
         color: $gray;
     }
 
+    .affiliation {
+        color: $gray;
+    }
+
     .person-name {
         margin: 0;
     }
@@ -143,6 +169,12 @@ section {
 
     .bio {
         margin-left: 1em;
+    }
+
+    .year {
+        margin-left: 1em;
+        color: $gray;
+        font-style: italic;
     }
 }
 
