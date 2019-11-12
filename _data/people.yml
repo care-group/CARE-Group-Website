@@ -37,12 +37,12 @@ ronnie-smith:
     image: /img/people/ronnie-smith.jpg
     bio: September 2018 - Present
 
-example-person-phd:
-    display_name: ""
-    # webpage: "/people/example_person.html"
-    role: grad
-    image: /img/people/white-square.png
-    # bio: June 2018 - Present
+# example-person-phd:
+#     display_name: ""
+#     # webpage: "/people/example_person.html"
+#     role: grad
+#     image: /img/people/white-square.png
+#     # bio: June 2018 - Present
 
 mario-parra-rodriguez:
     display_name: "Dr Mario Parra Rodriguez"
