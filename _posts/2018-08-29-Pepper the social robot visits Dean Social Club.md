@@ -1,6 +1,7 @@
 ---
 layout: post
 icon: newspaper-o
+type: news
 image: "https://www.insiderobotics.com.au/Images/100/0/9179_Large.jpg"
 image_style: "max-height: 100px;"
 image_link: "https://www.insiderobotics.com.au/Images/100/0/9179_Large.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: news
 icon: newspaper-o
 image: "https://www.eu-robotics.net/robotics_league/cache/be271474e4e1c38540bcca2af847570a.jpg"
 image_style: "max-height: 100px;"

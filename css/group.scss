@@ -32,7 +32,7 @@ body {
     }
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 600px) {
     .footer {
         padding-left: 5%;
         padding-right: 5%;  
@@ -43,7 +43,6 @@ body {
     color: $gray;
 }
 a > .fa {
-    // make sure that font-awesome icons are underlined in links
     display: inline;
 }
 
@@ -79,7 +78,7 @@ a > .fa {
     margin-bottom: 15px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 600px) {
     .affiliation {
         width: 70%;
     }
@@ -181,4 +180,70 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+/* Floating Social Media Bar Style Starts Here */
+
+.twitter {
+font: normal normal 10px Arial;
+text-align: center;
+color: #998578;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.twitter {
+color: #ffffff;
+text-decoration: none;
+display: block;
+padding: 14px;
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+}
+  
+.fl-fl {
+background: #2E3192;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding: 4px;
+width: 190px;
+position: fixed;
+right: -145px;
+z-index: 1000;
+font: normal normal 10px Arial;
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+transition: all .25s ease;
+}
+
+// .fa {
+// font-size: 20px;
+// color: #ffffff;
+// padding: 10px 0;
+// width: 40px;
+// margin-left: 8px;
+// }
+
+.fl-fl:hover, .fl-fl:active {
+right: 0;
+}
+
+.fl-fl a {
+color: #ffffff !important;
+text-decoration: none;
+text-align: center;
+line-height: 43px!important;
+vertical-align: top!important;
+}
+
+.float-tw {
+bottom: 70px;
+}
+
+.float-ig {
+bottom: 10px;
 }
