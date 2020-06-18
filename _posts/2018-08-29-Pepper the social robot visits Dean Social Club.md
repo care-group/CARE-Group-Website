@@ -5,6 +5,7 @@ type: news
 image: "https://www.insiderobotics.com.au/Images/100/0/9179_Large.jpg"
 image_style: "max-height: 100px;"
 image_link: "https://www.insiderobotics.com.au/Images/100/0/9179_Large.jpg"
+title: "Pepper the Social Robot Visits Dean Social Club"
 ---
 
 Every Tuesday, Wednesday and Thursday, the social club welcomes its elderly members for half a day packed with social activities like music, tai-chi, Dominoes or Scrabble. The mission of the centre is to help Edinburgh’s lonely and isolated over-60s by providing companionship that is integrated with local communities.

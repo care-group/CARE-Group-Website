@@ -20,23 +20,12 @@ role-tables:
 
 ---
 
-<div class="float-sm">
-    <div class="fl-fl float-tw" onclick="">
-      <i class="fa fa-twitter"></i>
-      <a href="https://twitter.com/CAREGroupHWU" target="_blank">Follow us!</a>
-    </div>
-    <div class="fl-fl float-ig" onclick="">
-      <i class="fa fa-instagram"></i>
-      <a href="https://www.instagram.com/caregrouphwu/" target="_blank">Follow us!</a>
-    </div>
-</div>
+
 
 <div class="jumbotron">
     <p>
         The <b>Cognitive Assistive Robotic Environments (CARE) Group</b> at <b><a href="https://www.hw.ac.uk">Heriot-Watt University</a></b>, 
-        part of the <b><a href="https://www.edinburgh-robotics.org/">Edinburgh Centre for Robotics</a>,</b> focuses on enabling robots and 
-        autonomous systems to provide user-centred assisted living support. Our research areas include perception, Internet of Things (IoT), 
-        robotic ecologies, cognitive robotics, and machine learning.
+        part of the <b><a href="https://www.edinburgh-robotics.org/">Edinburgh Centre for Robotics</a></b>, focuses on enabling robotic, autonomous and interactive systems (RAIS) to provide user-centred assisted living support. 
     </p>
 </div>
 
@@ -44,7 +33,9 @@ role-tables:
     <h2>News</h2>
     <ul class="news list-unstyled">
         {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
+            {% if post.type == "news" %}
+                {% include news-item.html item=post %}
+            {% endif %}
         {% endfor %}
     </ul>
     {% assign numposts = site.posts | size %}

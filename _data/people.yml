@@ -8,6 +8,7 @@ mauro-dragone:
     role: faculty
     image: /img/people/mauro-dragone.jpg
     bio: Assistant Professor
+    altbio: Assistant Professor
 
 marta-vallejo:
     display_name: "Dr Marta Vallejo"
@@ -15,20 +16,23 @@ marta-vallejo:
     role: faculty
     image: /img/people/marta-vallejo.jpg
     bio: Research Fellow
+    altbio: Research Fellow
 
-alexander-colle:
-    display_name: "Alexander Colle"
+alexandre-colle:
+    display_name: "Alexandre Colle"
     webpage: "https://www.edinburgh-robotics.org/students/alexandre-colle"
     role: grad
     image: /img/people/alexandre-colle.jpg
     bio: September 2019 - Present
+    altbio: PhD Student
 
-scott-mcleod:
-    display_name: "Scott McLeod"
-    webpage: "/people/scott_mcleod.html"
+scott-macleod:
+    display_name: "Scott MacLeod"
+    webpage: "/people/scott_macleod.html"
     role: grad
     image: /img/people/default.png
     bio: June 2018 - Present
+    altbio: PhD Student
 
 ronnie-smith:
     display_name: "Ronnie Smith"
@@ -36,6 +40,7 @@ ronnie-smith:
     role: grad
     image: /img/people/ronnie-smith.jpg
     bio: September 2018 - Present
+    altbio: PhD Student
 
 # example-person-phd:
 #     display_name: ""
@@ -55,8 +60,44 @@ sara-cooper:
     bio: Postgraduate Research Student (MSc)
     year: 2019
 
+ronnie-smith-msc:
+    display_name: "Ronnie Smith"
+    role: alum
+    bio: Postgruadute Research Student (MScR)
+    year: 2019
+
+guillaume-gautier:
+    display_name: "Guillaume Gautier"
+    role: alum
+    bio: Postgruadute Research Student (MSc)
+    year: 2018
+
+alexandre-chamand:
+    display_name: "Alexandre Chamand"
+    role: alum
+    bio: Postgruadute Research Student (MSc)
+    year: 2018
+
+nuno_marques_da_silva:
+    display_name: "Nuno Marques da Silva"
+    role: alum
+    bio: Postgraduate Research Student (MSc)
+    year: 2018
+
+wanjun_feng:
+    display_name: "Wanjung Feng"
+    role: alum
+    bio: Postgraduate Research Student (MSc)
+    year: 2017
+
+paola_ardon:
+    display_name: "Paola Ardon"
+    role: alum
+    bio: Postgraduate Research Student (MScR)
+    year: 2017
+
 example-person:
-    display_name: "Example Person"
+    display_name: "TBC"
     role: msc
     image: /img/people/default.png
     bio: September 2019 - Present

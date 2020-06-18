@@ -2,9 +2,10 @@
 layout: post
 type: news
 icon: newspaper-o
-image: "https://www.eu-robotics.net/robotics_league/cache/be271474e4e1c38540bcca2af847570a.jpg"
+image: "http://blog.pal-robotics.com/wp-content/uploads/2018/02/20180126_HWU_Edinburgh_2-1.jpg"
 image_style: "max-height: 100px;"
-image_link: "https://www.eu-robotics.net/robotics_league/cache/be271474e4e1c38540bcca2af847570a.jpg"
+image_link: "http://blog.pal-robotics.com/wp-content/uploads/2018/02/20180126_HWU_Edinburgh_2-1.jpg"
+title: "International Contest Reveals Assisted Living Robots of the Future"
 ---
 
 Academic teams from across the continent battled it out in the <a href="http://www.eu-robotics.net/robotics_league/">European Robotics League Service Robot Challenge (ERL)</a>, testing robots which aim to assist older people in a care setting.

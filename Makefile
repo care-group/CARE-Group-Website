@@ -14,7 +14,7 @@ build: _includes/pubs.html
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
-SERVE_HOST ?= 134.209.30.59
+SERVE_HOST ?= care.hw.ac.uk
 SERVE_PORT ?= 80
 
 serve: _includes/pubs.html
@@ -23,7 +23,7 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r _site _includes/pubs.html
 
-DEPLOY_HOST ?= 134.209.30.59
+DEPLOY_HOST ?= care.hw.ac.uk
 DEPLOY_PATH ?= /var/sftp/dev
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
 
