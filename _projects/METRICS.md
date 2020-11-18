@@ -26,4 +26,5 @@ Within METRICS, Heriot-Watt will engage with stakeholders in co-design activitie
 
 ## Links
 
-1. <a href="https://cordis.europa.eu/project/id/871252">METRICS Project Information on CORDIS</a>
+1. <a href="https://metricsproject.eu/">METRICS Project Website</a>
+2. <a href="https://cordis.europa.eu/project/id/871252">METRICS Project Information on CORDIS</a>
