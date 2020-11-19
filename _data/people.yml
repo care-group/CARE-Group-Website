@@ -44,6 +44,7 @@ ronnie-smith:
 
 thomas-gillett:
     display_name: "Thomas Gillett"
+    webpage: "/people/thomas_gillett.html"
     role: grad
     image: /img/people/default.png
     bio: October 2020 - Present
@@ -54,12 +55,11 @@ meriam-moujahid:
     image: /img/people/meriam-moujahid.jpg
     bio: September 2020 - Present
 
-ashwin-rajendran:
-    display_name: "Ashwin Rajendran"
-    role: alum
-    image: /img/people/ashwin-rajendran.png
-    bio: Research Assistant
-    year: 2020
+petros-papadopoulos:
+    display_name: "Petros Papadopoulos"
+    role: research-associate
+    image: /img/people/default.png
+    bio: September 2020 - Present
 
 # example-person-phd:
 #     display_name: ""
@@ -72,6 +72,13 @@ mario-parra-rodriguez:
     display_name: "Dr Mario Parra Rodriguez"
     role: collab
     bio: "University of Strathclyde"
+
+ashwin-rajendran:
+    display_name: "Ashwin Rajendran"
+    role: alum
+    image: /img/people/ashwin-rajendran.png
+    bio: Research Assistant
+    year: 2020
 
 sara-cooper:
     display_name: "Sara Cooper"

@@ -26,6 +26,8 @@ roles:
     name: Alumni
   - key: research-assistant
     name: Research Assistants
+  - key: research-associate
+    name: Research Associates
   # - key: postdoc
   #   name: Postdoctoral Researchers
   # - key: ugrad
