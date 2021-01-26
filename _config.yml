@@ -59,5 +59,7 @@ navigation:
     link: /publications.html
   - title: Events
     link: /events.html
-  - title: Code
-    link: /code.html
+  - title: Software
+    link: /software.html
+  - title: Intranet
+    link: http://care.hw.ac.uk/wiki/index.php
