@@ -11,6 +11,7 @@ people:
   - scott-macleod
   - ronnie-smith
   - marta-vallejo
+  - meriam-moujahid
 
 layout: project
 last-updated: 2020-03-25

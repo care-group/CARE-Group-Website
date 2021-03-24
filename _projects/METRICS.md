@@ -3,10 +3,12 @@ title: METRICS
 notitle: false
 
 description: |
-  Objective robot testing using metrological principles
+  Objective robot testing using metrological principles.
 
 people:
   - mauro-dragone
+  - scott-macleod
+  - meriam-moujahid
 
 layout: project
 last-updated: 2020-03-25
