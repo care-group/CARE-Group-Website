@@ -163,20 +163,6 @@ section {
     }
 }
 
-.person-without-image {
-    margin: 0;
-
-    .bio {
-        margin-left: 1em;
-    }
-
-    .year {
-        margin-left: 1em;
-        color: $gray;
-        font-style: italic;
-    }
-}
-
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;

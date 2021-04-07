@@ -73,6 +73,13 @@ mario-parra-rodriguez:
     role: collab
     bio: "University of Strathclyde"
 
+jean-baptiste-dupuy:
+    display_name: "Jean-Baptiste Dupuy"
+    role: alum
+    image: /img/people/default.png
+    bio: Postgraduate Research Student (MSc)
+    year: 2020
+
 ashwin-rajendran:
     display_name: "Ashwin Rajendran"
     role: alum
@@ -121,13 +128,6 @@ paola_ardon:
     role: alum
     bio: Postgraduate Research Student (MScR)
     year: 2017
-
-jean-baptiste-dupuy:
-    display_name: "Jean-Baptiste Dupuy"
-    role: alum
-    image: /img/people/default.png
-    bio: Postgraduate Research Student (MSc)
-    year: 2020
 
 # ***************************************************
 # OTHER PROFILE TYPE TEMPLATES
