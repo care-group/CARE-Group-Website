@@ -68,6 +68,18 @@ petros-papadopoulos:
 #     image: /img/people/white-square.png
 #     # bio: June 2018 - Present
 
+rakin-sarder:
+    display_name: "Md. Rakin Sarder"
+    role: msc
+    bio: Postgraduate Research Student (MSc)
+    year: 2021
+
+vidyul-shah:
+    display_name: "Vidyul Shah"
+    role: msc
+    bio: Postgraduate Research Student (MSc)
+    year: 2021
+
 mario-parra-rodriguez:
     display_name: "Dr Mario Parra Rodriguez"
     role: collab
