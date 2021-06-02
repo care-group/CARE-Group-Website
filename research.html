@@ -8,12 +8,27 @@ notitle: true
 Founded in June 2019 by Dr Mauro Dragone, CARE Group aims to promote and support research around the integration of IoT and robotic technology into Ambient Assisted Living (AAL) environments. For us, the term 'Cognitive Assistive Robotic Environments' embodies a vision: a future where humans are supported by smart environments that can not only sense and react to user behaviour, but can proactively engage and cooperate with them using robotic technology. Drawing on expertise from within the Edinburgh Centre for Robotics and collaborating with psychologists and other social scientists allow us to consider a wider range of research angles.
 </p>
 
-<h2 style="padding-bottom:10pt;">Research Projects</h2>
+<h2>Calls for Participants</h2>
+<ul class="news list-unstyled">
+    {% for post in site.posts %}
+        {% if post.type == "call-for-participants" %}
+            {% include call-for-participants-item.html item=post %}
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h2 style="padding-bottom:10pt;">Current Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
     {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+        {% include project-card.html project=p %}
+    {% endfor %}
+</div>
+
+<h2 style="padding-bottom:10pt;">Past Projects</h2>
+<div class="card-columns" style="padding-bottom:10pt;">
+    {% assign projects_by_date = site.past-projects | sort: 'last-updated', 'first' %}
     {% assign projects_by_date = projects_by_date | reverse %}
     {% for p in projects_by_date %}
         {% include project-card.html project=p %}

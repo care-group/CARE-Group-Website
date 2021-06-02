@@ -26,6 +26,14 @@ alexandre-colle:
     bio: September 2019 - Present
     altbio: PhD Student
 
+thomas-gillett:
+    display_name: "Thomas Gillett"
+    webpage: "/people/thomas_gillett.html"
+    role: grad
+    image: /img/people/default.png
+    bio: October 2020 - Present
+    altbio: PhD Student
+
 scott-macleod:
     display_name: "Scott MacLeod"
     webpage: "/people/scott_macleod.html"
@@ -42,31 +50,21 @@ ronnie-smith:
     bio: September 2018 - Present
     altbio: PhD Student
 
-thomas-gillett:
-    display_name: "Thomas Gillett"
-    webpage: "/people/thomas_gillett.html"
-    role: grad
-    image: /img/people/default.png
-    bio: October 2020 - Present
-
 meriam-moujahid:
     display_name: "Meriam Moujahid"
-    role: research-assistant
+    role: alum
     image: /img/people/meriam-moujahid.jpg
-    bio: September 2020 - Present
+    bio: Research Assistant
+    altbio: Research Assistant
+    year: 2021
 
 petros-papadopoulos:
     display_name: "Petros Papadopoulos"
-    role: research-associate
+    role: alum
     image: /img/people/default.png
-    bio: September 2020 - Present
-
-# example-person-phd:
-#     display_name: ""
-#     # webpage: "/people/example_person.html"
-#     role: grad
-#     image: /img/people/white-square.png
-#     # bio: June 2018 - Present
+    bio: Research Associate
+    altbio: Research Associate
+    year: 2021
 
 rakin-sarder:
     display_name: "Md. Rakin Sarder"
@@ -97,6 +95,7 @@ ashwin-rajendran:
     role: alum
     image: /img/people/ashwin-rajendran.png
     bio: Research Assistant
+    altbio: Research Assistant
     year: 2020
 
 sara-cooper:
@@ -129,17 +128,24 @@ nuno_marques_da_silva:
     bio: Postgraduate Research Student (MSc)
     year: 2018
 
-wanjun_feng:
+wanjun-feng:
     display_name: "Wanjung Feng"
     role: alum
     bio: Postgraduate Research Student (MSc)
     year: 2017
 
-paola_ardon:
+paola-ardon:
     display_name: "Paola Ardon"
     role: alum
     bio: Postgraduate Research Student (MScR)
     year: 2017
+
+liza-masson:
+    display_name: "Liza Masson"
+    role: intern
+    bio: Athena Swan Intern
+    year: 2021
+    image: /img/people/liza-masson.jpeg
 
 # ***************************************************
 # OTHER PROFILE TYPE TEMPLATES

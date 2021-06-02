@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<p class="date">Respond by: {{ page.closing-date }}</p>
+
+{{ content }}
+
+<h2>How to take part</h2>
+If you are interested in taking part in this study, or you have any questions, please get in touch with the researchers running the study:
+<ul style="padding-top:10pt;">
+{% for contact in page.contacts %}
+    <li><b>{{ contact.name }}</b><br><a href="mailto:"{{ contact.email }}">{{ contact.email }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Ethics</h2>
+{% if page.ethics %}
+    This research has been reviewed by the Ethics Committee in the School of {{ page.ethics.school }} at Heriot-Watt University, project number {{ page.ethics.approval-number }}.
+{% else %}
+    This research is currently awaiting ethical approval, once we receive it we will update this page with details.
+{% endif %}
+<br>
+
+<h2 style="padding-top:10pt;">Privacy</h2>
+If you would like to find out more about what Heriot-Watt University (the data controller) does with your personal data and your rights under privacy law, <a href="https://www.hw.ac.uk/uk/services/docs/information-governance/PrivacyNoticeResearch-V4Finalversion.pdf">please read our information for participants in academic research projects</a>, or contact our Data Protection Officer, by post at Data Protection Officer, Heriot-Watt University, Edinburgh, Scotland, UK, EH14 4AS, or by email at <a href="mailto:dataprotection@hw.ac.uk">dataprotection@hw.ac.uk</a>.
+<br><br>

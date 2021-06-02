@@ -28,6 +28,8 @@ roles:
     name: Research Assistants
   - key: research-associate
     name: Research Associates
+  - key: intern
+    name: Interns
   # - key: postdoc
   #   name: Postdoctoral Researchers
   # - key: ugrad
@@ -45,6 +47,8 @@ base: ''
 # make pages for the _projects folder
 collections:
   projects:
+    output: true
+  past-projects:
     output: true
 
 # Navigation bar links.

@@ -12,6 +12,9 @@ people:
   - ronnie-smith
   - marta-vallejo
   - meriam-moujahid
+  - petros-papadopoulos
+  - thomas-gillett
+  - ashwin-rajendran
 
 layout: project
 last-updated: 2020-03-25
