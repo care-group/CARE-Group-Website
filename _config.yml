@@ -67,3 +67,6 @@ navigation:
     link: /software.html
   - title: Intranet
     link: http://care.hw.ac.uk/wiki/index.php
+
+# Google Analytics
+google_analytics: G-P2QM29HGLX
