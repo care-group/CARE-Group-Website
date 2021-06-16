@@ -9,7 +9,7 @@ layout: default
 If you are interested in taking part in this study, or you have any questions, please get in touch with the researchers running the study:
 <ul style="padding-top:10pt;">
 {% for contact in page.contacts %}
-    <li><b>{{ contact.name }}</b><br><a href="mailto:"{{ contact.email }}">{{ contact.email }}</a></li>
+    <li><b>{{ contact.name }}</b><br><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
 {% endfor %}
 </ul>
 
