@@ -1,5 +1,5 @@
 name: CARE Group
-url: http://localhost/
+url: https://care.hw.ac.uk/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -70,3 +70,15 @@ navigation:
 
 # Google Analytics
 google_analytics: G-P2QM29HGLX
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Social
+social:
+    name: CARE Group
+    links:
+      - https://twitter.com/CAREGroupHWU
+      - https://github.com/care-group
