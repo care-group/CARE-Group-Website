@@ -72,12 +72,6 @@ rakin-sarder:
     bio: Postgraduate Research Student (MSc)
     year: 2021
 
-vidyul-shah:
-    display_name: "Vidyul Shah"
-    role: msc
-    bio: Postgraduate Research Student (MSc)
-    year: 2021
-
 mario-parra-rodriguez:
     display_name: "Dr Mario Parra Rodriguez"
     role: collab
@@ -88,6 +82,12 @@ jean-baptiste-dupuy:
     role: alum
     image: /img/people/default.png
     bio: Postgraduate Research Student (MSc)
+    year: 2020
+
+connor-smith:
+    display_name: "Connor Smith"
+    role: alum
+    bio: Undergradute Student (MEng)
     year: 2020
 
 ashwin-rajendran:
@@ -122,16 +122,34 @@ alexandre-chamand:
     bio: Postgruadute Research Student (MSc)
     year: 2018
 
-nuno_marques_da_silva:
+nuno-marques-da-silva:
     display_name: "Nuno Marques da Silva"
     role: alum
     bio: Postgraduate Research Student (MSc)
     year: 2018
 
+clarissa-cremona:
+    display_name: "Clarissa Cremona"
+    role: alum
+    bio: Undergraduate Student (MEng)
+    year: 2017
+
 wanjun-feng:
     display_name: "Wanjung Feng"
     role: alum
     bio: Postgraduate Research Student (MSc)
+    year: 2017
+
+kyna-mowat-gosnell:
+    display_name: "Kyna Mowat-Gosnell"
+    role: alum
+    bio: Undergraduate Student (MEng)
+    year: 2017
+
+jack-oakley:
+    display_name: "Jack Oakley"
+    role: alum
+    bio: Undergraduate Student (MEng)
     year: 2017
 
 paola-ardon:
