@@ -68,8 +68,15 @@ petros-papadopoulos:
 
 rakin-sarder:
     display_name: "Md. Rakin Sarder"
-    role: msc
+    role: alum
     bio: Postgraduate Research Student (MSc)
+    year: 2021
+
+rakin-sarder-2:
+    display_name: "Md. Rakin Sarder"
+    role: research-assistant
+    image: /img/people/default.png
+    bio: Research Assistant
     year: 2021
 
 mario-parra-rodriguez:
