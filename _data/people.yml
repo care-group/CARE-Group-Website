@@ -26,14 +26,6 @@ alexandre-colle:
     bio: September 2019 - Present
     altbio: PhD Student
 
-thomas-gillett:
-    display_name: "Thomas Gillett"
-    webpage: "/people/thomas_gillett.html"
-    role: grad
-    image: /img/people/default.png
-    bio: October 2020 - Present
-    altbio: PhD Student
-
 scott-macleod:
     display_name: "Scott MacLeod"
     webpage: "/people/scott_macleod.html"
@@ -47,7 +39,7 @@ ronnie-smith:
     webpage: "https://www.edinburgh-robotics.org/students/ronnie-smith-cohort-student-representative"
     role: grad
     image: /img/people/ronnie-smith.jpg
-    bio: September 2018 - Present
+    bio: September 2019 - Present
     altbio: PhD Student
 
 meriam-moujahid:
