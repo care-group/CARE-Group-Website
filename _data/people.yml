@@ -18,6 +18,14 @@ marta-vallejo:
     bio: Research Fellow
     altbio: Research Fellow
 
+alistair-mcconnell:
+    display_name: "Dr Alistair McConnell"
+    webpage: "/people/alistair_mcconnell.html"
+    role: faculty
+    image: /img/people/alistair-mcconnell.jpg
+    bio: January 2022 - Present
+    altbio: Assistant Professor
+
 alexandre-colle:
     display_name: "Alexandre Colle"
     webpage: "https://www.edinburgh-robotics.org/students/alexandre-colle"

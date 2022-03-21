@@ -1,0 +1,51 @@
+---
+layout: default
+title: Dr. Marta Vallejo
+notitle: true
+---
+{% assign person = include.person %}
+
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
+        {% include person.html person=person image=true %}
+    {% endif %}
+{% endfor %}
+
+<section>
+
+    <div class="container" style="margin: 0pt; padding: 0%;">
+        <div class="row">
+            <div class="col-md-auto">
+                <div class="jumbotron" style="font-size: 100%;">
+                    <p class="text-center">
+                        <img class="rounded-circle profile"
+                        alt="Dr Marta Vallejo"
+                        src="/img/people/alistair-mcconnell.jpg"
+                        width = 200pt />
+                    </p>
+                    <p class="text-center">
+                        <strong>Dr. Alistair McConnell</strong><br>
+                        Assistant Professor
+                    </p>
+                    <hr>
+                    <p>
+                        <!-- <i class="fa fa-envelope-o"></i>&nbsp; m.vallejo@hw.ac.uk <br> -->
+                        <i class="fa fa-twitter"></i>&nbsp; @Ali_McConell <br>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <p class="font-weight-bold m-0 p-0">Biography</p>
+                <p>
+                    Dr Alistair McConnell completed an MEng in Robotics and Cybertronics and an MSc in Robotics, Autonomous and Interactive Systems with a specialism in Evolutionary and Bioinspired Robotics (distinction) at Heriot-Watt University. He then went on to complete a PhD in Rehabilitation Robotics at Heriot-Watt University as well. After his PhD he began a post-doctoral position at the University of Edinburgh as part of the ORCA Hub where he worked on developing novel robots and sensors for the extreme environments. He is a keen entrepreneur, with experience in spin-outs and start-up and is a co-founder of Mask Logic Ltd. His research areas include healthcare technologies, cyber-physical fabric and soft robotics. He is also enthusiastic about public engagement of all kinds.
+                </p>
+
+                <!-- <p class="font-weight-bold m-0 p-0">Research Interests</p>
+                <p>
+                    Text
+                </p> -->
+            </div>
+        </div>
+    </div>
+</section>
