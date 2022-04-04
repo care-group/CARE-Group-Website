@@ -4,7 +4,7 @@ url: https://care.hw.ac.uk/
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
 description:
-  The Cognitive Assistive Robotic Environments (CARE) Group at Heriot-Watt University, part of the Edinburgh Centre for Robotics, focuses on enabling robotic, autonomous and interactive systems (RAIS) to provide user-centred assisted living support.
+  The Cognitive Assistive Robotic Environments (CARE) Group at Heriot-Watt University, part of the Edinburgh Centre for Robotics and the National Robotarium, focuses on enabling robotic, autonomous and interactive systems (RAIS) to provide user-centred assisted living support.
 
 # colorize code snippets with the pygments module
 highlighter: pygments
