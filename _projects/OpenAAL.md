@@ -13,7 +13,6 @@ people:
   - marta-vallejo
   - meriam-moujahid
   - petros-papadopoulos
-  - thomas-gillett
   - ashwin-rajendran
 
 layout: project

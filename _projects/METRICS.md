@@ -9,6 +9,7 @@ people:
   - mauro-dragone
   - scott-macleod
   - meriam-moujahid
+  - ronnie-smith
 
 layout: project
 last-updated: 2020-03-25

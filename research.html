@@ -10,6 +10,15 @@ Founded in June 2019 by Dr Mauro Dragone, CARE Group aims to promote and support
 
 <h2>Calls for Participants</h2>
 <ul class="news list-unstyled">
+    {% assign total = 0 %}
+    {% for post in site.posts %}
+       {% if post.type == "call-for-participants" %}
+        {% assign total = total | plus: 1 %}
+       {% endif %}
+    {% endfor %}
+    {% if total == 0 %}
+        <p>Sorry, there are currently no open calls for participants. Please check back later.</p>
+    {% endif %}
     {% for post in site.posts %}
         {% if post.type == "call-for-participants" %}
             {% include call-for-participants-item.html item=post %}
