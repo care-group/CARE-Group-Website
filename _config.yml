@@ -80,6 +80,7 @@ google_analytics: G-P2QM29HGLX
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Social
 social:
