@@ -1,102 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- <title>{{ site.name }}: {{ page.title }}</title> -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <style>
-            .nav-pills {
-                margin-top: 6px;
-            }
-        </style>
 
-        <link rel="stylesheet"
-            href="{{ site.base }}/css/bootstrap.css">
-        <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ site.base }}/css/group.css">
+<head>
+    <!-- <title>{{ site.name }}: {{ page.title }}</title> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        {% seo %}
-    </head>
-    <body>
-        <div class="float-sm">
-                <div class="fl-fl float-tw" onclick="">
-                <i class="fa fa-twitter" style="font-size: 20px; color: #ffffff; padding: 10px 0; width: 40px; margin-left: 8px;"></i>
-                <a href="https://twitter.com/CAREGroupHWU" target="_blank">Follow us!</a>
-            </div>
-            <div class="fl-fl float-ig" onclick="">
-                <i class="fa fa-instagram" style="font-size: 20px; color: #ffffff; padding: 10px 0; width: 40px; margin-left: 8px;"></i>
-                <a href="https://www.instagram.com/caregrouphwu/" target="_blank">Follow us!</a>
-            </div>
+    <style>
+        .nav-pills {
+            margin-top: 6px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="{{ site.base }}/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.base }}/css/group.css">
+
+    {% seo %}
+</head>
+
+<body>
+    <div class="float-sm">
+        <div class="fl-fl float-gh" onclick="">
+            <i class="fa fa-twitter"
+                style="font-size: 20px; color: #ffffff; padding: 10px 0; width: 40px; margin-left: 8px;"></i>
+            <a href="https://twitter.com/CAREGroupHWU" target="_blank">Follow us!</a>
         </div>
+        <div class="fl-fl float-ig" onclick="">
+            <i class="fa fa-github"
+                style="font-size: 20px; color: #ffffff; padding: 10px 0; width: 40px; margin-left: 8px;"></i>
+            <a href="https://github.com/care-group/" target="_blank">Follow us!</a>
+        </div>
+    </div>
 
-        <div class="container">
-            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
-            <div class="header d-flex
+    <div class="container">
+        <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
+        <div class="header d-flex
                         flex-column
                         flex-md-row justify-content-md-between">
-                <a href="{{ site.base }}/" class="">
-                    <img src="{{ site.base }}/img/logos/care_group_horizontal.png"
-                         srcset="{{ site.base }}/img/logos/care_group_horizontal.png 2x"
-                         alt="Awesome" id="logo">
-                </a>
+            <a href="{{ site.base }}/" class="">
+                <img src="{{ site.base }}/img/logos/care_group_horizontal.png"
+                    srcset="{{ site.base }}/img/logos/care_group_horizontal.png 2x" alt="Awesome" id="logo">
+            </a>
 
-                <ul class="nav nav-pills justify-content-center">
+            <ul class="nav nav-pills justify-content-center">
 
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
+                {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+                {% for item in site.navigation %}
 
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
+                {% assign itemshorturl = item.link | replace:'.html','' %}
 
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
+                {% assign maybe-active = '' %}
+                {% if item.title == 'Research' and page.layout == 'project' %}
+                {% assign maybe-active = 'active' %}
+                {% endif %}
+                {% if itemshorturl == shorturl or is-research %}
+                {% assign maybe-active = 'active' %}
+                {% endif %}
 
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
-                            </a>
-                        </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ maybe-active }}" href="{{ site.base }}{{ item.link }}">
+                        {{ item.title }}
+                    </a>
+                </li>
 
-                    {% endfor %}
+                {% endfor %}
 
-                </ul>
-            </div>
+            </ul>
+        </div>
 
-            {% if page.image %}
-                <img src="{{ page.image }}"
-                     alt="{{ page.title }}"
-                     style="max-width: 400px"
-                     class="img-fluid mx-auto d-block mb-4"/>
-            {% endif %}
+        {% if page.image %}
+        <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 400px"
+            class="img-fluid mx-auto d-block mb-4" />
+        {% endif %}
 
-            {% if page.notitle != true %}
-                <h1>{{ page.title }}</h1>
-            {% endif %}
+        {% if page.notitle != true %}
+        <h1>{{ page.title }}</h1>
+        {% endif %}
 
-            {{ content }}
+        {{ content }}
 
-            <div class="footer">
-                <img src="{{ site.base }}/img/logos/combined.png" class="affiliation">
+        <div class="footer">
+            <img src="{{ site.base }}/img/logos/combined.png" class="affiliation">
 
-                <p>
-                    The CARE Group is affiliated with <a href="https://www.hw.ac.uk">Heriot-Watt University</a> and with the <a href="https://www.edinburgh-robotics.org">Edinburgh Centre for Robotics</a>,
-                    a joint venture between  <a href="https://www.hw.ac.uk">Heriot-Watt University</a> and <a href="https://www.ed.ac.uk">The University of Edinburgh</a>.
-                </p>
-            </div>
+            <p>
+                The CARE Group is affiliated with <a href="https://www.hw.ac.uk">Heriot-Watt University</a> and with the
+                <a href="https://www.edinburgh-robotics.org">Edinburgh Centre for Robotics</a>,
+                a joint venture between <a href="https://www.hw.ac.uk">Heriot-Watt University</a> and <a
+                    href="https://www.ed.ac.uk">The University of Edinburgh</a>.
+            </p>
+        </div>
 
-        </div> <!-- /container -->
+    </div> <!-- /container -->
 
-        <!-- Support retina images. -->
-        <script type="text/javascript"
-                src="{{ site.base }}/js/srcset-polyfill.js"></script>
+    <!-- Support retina images. -->
+    <script type="text/javascript" src="{{ site.base }}/js/srcset-polyfill.js"></script>
 
-        {% include cookie-consent.html %}
-    </body>
+    {% include cookie-consent.html %}
+</body>
+
 </html>
