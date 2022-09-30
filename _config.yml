@@ -33,6 +33,8 @@ roles:
     name: Research Associates
   - key: intern
     name: Interns
+  - key: ktp-associate
+    name: KTP Associates
   # - key: postdoc
   #   name: Postdoctoral Researchers
   # - key: ugrad

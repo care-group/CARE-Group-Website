@@ -7,7 +7,7 @@ mauro-dragone:
     webpage: "/people/mauro_dragone.html"
     role: faculty
     image: /img/people/mauro-dragone.jpg
-    bio: Assistant Professor
+    bio: Associate Professor
     altbio: Associate Professor
 
 marta-vallejo:
@@ -41,6 +41,14 @@ scott-macleod:
     image: /img/people/scott-macleod.png
     bio: June 2018 - Present
     altbio: PhD Student
+
+scott-macleod-2:
+    display_name: "Scott MacLeod"
+    webpage: "/people/scott_macleod.html"
+    role: ktp-associate
+    image: /img/people/scott-macleod.png
+    bio: September 2022 - Present
+    altbio: KTP Associate (Blackwood)
 
 ronnie-smith:
     display_name: "Ronnie Smith"
