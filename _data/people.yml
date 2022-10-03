@@ -173,6 +173,24 @@ liza-masson:
     year: 2021
     image: /img/people/liza-masson.jpeg
 
+charles-birdsall:
+    display_name: Charles Birdsall
+    role: alum
+    bio: Postgraduate Research Student (MSc)
+    year: 2022
+
+aiewumi-ajiboye:
+    display_name: Aiewumi Ajiboye
+    role: alum
+    bio: Postgraduate Research Student (MSc)
+    year: 2022
+
+inyama-godfrey:
+    display_name: Inyama Godfrey
+    role: alum
+    bio: Postgraduate Research Student (MSc)
+    year: 2022
+
 # ***************************************************
 # OTHER PROFILE TYPE TEMPLATES
 # ***************************************************
