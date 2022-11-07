@@ -60,14 +60,16 @@ collections:
 navigation:
   - title: Home
     link: /
-  - title: People
+  - title: About Us
     link: /people.html
   - title: Research
     link: /research.html
+  - title: Co-Design
+    link: /codesign.html
   - title: Publications
     link: /publications.html
   - title: Our Testbed
-    link: https://ralt.hw.ac.uk/
+    link: /testbeds.html
   - title: Events
     link: /events.html
   - title: Vacancies
