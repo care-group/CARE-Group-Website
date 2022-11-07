@@ -64,12 +64,12 @@ navigation:
     link: /people.html
   - title: Research
     link: /research.html
-  - title: Co-Design
-    link: /codesign.html
+#  - title: Co-Design
+#    link: /codesign.html
   - title: Publications
     link: /publications.html
-  - title: Our Testbed
-    link: /testbeds.html
+#  - title: Testbeds
+#    link: /testbeds.html
   - title: Events
     link: /events.html
   - title: Vacancies
