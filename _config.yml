@@ -60,12 +60,12 @@ collections:
 navigation:
 #  - title: Home
 #    link: /
-  - title: About Us
+  - title: People
     link: /people.html
-  - title: Research
+  - title: Projects
     link: /research.html
-  - title: Co-Design
-    link: /codesign.html
+#  - title: Co-Design
+#    link: /codesign.html
   - title: Publications
     link: /publications.html
   - title: Testbeds

@@ -36,6 +36,21 @@ For us, the term 'Cognitive Assistive Robotic Environments' embodies a vision: a
     {% endfor %}
 </div>
 
+<p style="padding-top:10pt; padding-bottom:10pt;">
+    We are experienced in participatory design of assistive technology. Engagement with end-users in co-design activities is embedded in all our projects to ensure that the focus remains on improved outcomes for the supported person, and that solutions are practical and feasible in the very challenging economic and social context care providers currently operate.
+    We have developed dedicated toolkits and work alongside usability and health experts, clinicians, care providers, psychologists, sociologists and people with assisted living needs to co-create solutions with global applications. Together we work to understand key priorities of specific user groups and care organisations, and also their concerns and issues around the use of robotic, autonomous and interactive systems.  
+    We help care organisations to explore potential use of these technologies as part of their care and support practices. We investigate how they can be used to detect patterns and trends in behaviour and individual health status, identify problems, support self-management, decision-making and risk assessment, facilitate communication and social connectedness, and provide social, cognitive and physical assistance when needed.
+</p>
+
+<h2 style="padding-bottom:10pt;">Co-Design</h2>
+<div class="card-columns" style="padding-bottom:10pt;">
+    {% assign projects_by_date = site.codesign-projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+        {% include project-card.html project=p %}
+    {% endfor %}
+</div>
+
 <h2 style="padding-bottom:10pt;">Past Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
     {% assign projects_by_date = site.past-projects | sort: 'last-updated', 'first' %}
