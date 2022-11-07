@@ -15,7 +15,7 @@ notitle: true
 
 <h2 style="padding-bottom:10pt;">Co-Design Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
-    {% assign projects_by_date = site.codesign_projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
     {% assign projects_by_date = projects_by_date | reverse %}
     {% for p in projects_by_date %}
         {% include project-card.html project=p %}
