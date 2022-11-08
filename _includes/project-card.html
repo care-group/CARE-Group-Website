@@ -24,6 +24,11 @@
                 {{  project.title }}
             </h4>
         {% endif %}
+        {% if project.years %}
+            <h6 class="card-subtitle mb-2 text-muted">
+                {{  project.years }}
+            </h6>
+        {% endif %}
         {% if project.subtitle != null and project.subtitle != "" %}
             <h6 class="card-subtitle mb-2 text-muted">
                 {{  project.subtitle }}
