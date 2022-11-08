@@ -64,8 +64,6 @@ navigation:
     link: /people.html
   - title: Projects
     link: /research.html
-#  - title: Co-Design
-#    link: /codesign.html
   - title: Publications
     link: /publications.html
   - title: Testbeds
