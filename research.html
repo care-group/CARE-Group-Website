@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research Projects
+title: Projects
 notitle: true
 ---
 
@@ -42,14 +42,6 @@ For us, the term 'Cognitive Assistive Robotic Environments' embodies a vision: a
     We help care organisations to explore potential use of these technologies as part of their care and support practices. We investigate how they can be used to detect patterns and trends in behaviour and individual health status, identify problems, support self-management, decision-making and risk assessment, facilitate communication and social connectedness, and provide social, cognitive and physical assistance when needed.
 </p>
 
-<h2 style="padding-bottom:10pt;">Co-Design</h2>
-<div class="card-columns" style="padding-bottom:10pt;">
-    {% assign projects_by_date = site.codesign-projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
-    {% endfor %}
-</div>
 
 <h2 style="padding-bottom:10pt;">Past Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
