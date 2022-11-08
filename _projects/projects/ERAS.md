@@ -1,5 +1,6 @@
 ---
 title: ERAS
+type: project
 notitle: false
 
 description: |

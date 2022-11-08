@@ -1,15 +1,15 @@
 ---
 title: RALT
+type: testbed
+image: https://care.hw.ac.uk/img/ralt.png
 notitle: false
 
 description: |
-  Robotic Assisted Living Testbed.
+  Robotic Assisted Living Testbed
 
 layout: project
 last-updated: 2021-03-24
 ---
-
-<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/ralt.png" height="60pt">
 
 ## About
 

@@ -1,5 +1,6 @@
 ---
 title: Smart Home
+type: project
 notitle: false
 
 description: |

@@ -1,5 +1,6 @@
 ---
 title: OXLABS, 2022-24
+type: project
 notitle: false
 
 description: |

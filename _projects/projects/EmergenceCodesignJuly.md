@@ -1,5 +1,6 @@
 ---
 title: Emergence Co-Design Workshops
+type: project
 notitle: false
 
 description: |

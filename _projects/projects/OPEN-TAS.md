@@ -1,5 +1,6 @@
 ---
 title: OPEN-TAS
+type: project
 notitle: false
 
 description: |

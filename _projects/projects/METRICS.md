@@ -1,5 +1,6 @@
 ---
 title: METRICS
+type: project
 notitle: false
 
 description: |

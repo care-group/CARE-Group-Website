@@ -15,10 +15,12 @@ notitle: true
 
 <h2 style="padding-bottom:10pt;">Testbeds</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
-    {% assign testbeds_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign testbeds_by_date = testbeds_by_date | reverse %}
-    {% for t in testbeds_by_date %}
-        {% include project-card.html testbed=t %}
+    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+    {% assign projects_by_date = projects_by_date | reverse %}
+    {% for p in projects_by_date %}
+        {% if p.type == "testbed" %}
+            {% include project-card.html project=p %}
+        {% endif %}
     {% endfor %}
 </div>
 

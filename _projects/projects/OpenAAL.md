@@ -1,5 +1,6 @@
 ---
 title: OpenAAL
+type: project
 notitle: false
 
 description: |

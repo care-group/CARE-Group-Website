@@ -1,5 +1,6 @@
 ---
 title: MAAH
+type: project
 notitle: false
 
 description: |
