@@ -6,6 +6,8 @@ notitle: false
 description: |
   EPSRC Network+ Emergence: Co-Design Workshops.
 
+people:
+  - care-group
 
 layout: project
 last-updated: 2022-07-01

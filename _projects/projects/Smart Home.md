@@ -4,7 +4,10 @@ type: project
 notitle: false
 
 description: |
-  Smart Home and Smart sensing for Home Activity Monitoring.
+  Smart Home and Smart Sensing for Home Activity Monitoring.
+
+people:
+  - care-group
 
 layout: project
 last-updated: 2021-03-24
@@ -15,7 +18,7 @@ last-updated: 2021-03-24
 ## About
 
 <p>
-We look after the IoT instrumentation of our <a href="https://care.hw.ac.uk/img/testbeds.html">testbeds</a>. We are expert of smart home software, voice assistants, home automation and related standards.  
+We look after the IoT instrumentation of our <a href="https://care.hw.ac.uk/img/testbeds.html">testbeds</a>. We are expert in smart home software, voice assistants, home automation and related standards.  
 </p>
 
 <p>
@@ -31,6 +34,5 @@ We have developed software to capture complex, interleaved and hierarchical natu
 </p>
 
 <p>
-Get in touch if you want more information about any of our existing datasets or if you are a company of assistive products or a care provider requiring our expertise in IoT, machine learning and home activity monitoring technology. <contact>
+Get in touch if you want more information about any of our existing datasets or if you are a company of assistive products or a care provider requiring our expertise in IoT, machine learning and home activity monitoring technology.
 </p>
-

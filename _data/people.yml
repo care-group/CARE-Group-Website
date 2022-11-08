@@ -2,6 +2,11 @@
 # PROFILE ENTRIES
 # ***************************************************
 
+care-group:
+    display_name: "CARE Group"
+    role: Group"
+    image: /img/people/care-group.png
+
 mauro-dragone:
     display_name: "Dr Mauro Dragone"
     webpage: "/people/mauro_dragone.html"

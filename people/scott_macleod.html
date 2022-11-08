@@ -1,0 +1,52 @@
+---
+layout: default
+title: Dr. Mauro Dragone
+notitle: true
+---
+{% assign person = include.person %}
+
+{% for item in site.data.people %}
+    {% assign person = item[1] %}
+    {% if person.role == role.key %}
+        {% include person.html person=person image=true %}
+    {% endif %}
+{% endfor %}
+
+<section>
+
+    <div class="container" style="margin: 0pt; padding: 0%;">
+        <div class="row">
+            <div class="col-md-auto">
+                <div class="jumbotron" style="font-size: 100%;">
+                    <p class="text-center">
+                        <img class="rounded-circle profile"
+                        alt="Scott MacLeod"
+                        src="/img/people/scott-macleod.png"
+                        width = 200pt />
+                    </p>
+                    <p class="text-center">
+                        <strong>Scott MacLeod</strong><br>
+                        KTP Associate
+                    </p>
+                    <hr>
+                    <p>
+                        <i class="fa fa-envelope-o"></i>&nbsp; scott.macleod@hw.ac.uk <br>
+                        <i class="fa fa-twitter"></i>&nbsp; N/A <br>
+                        <i class="fa fa-linkedin">&nbsp;</i> @sa-macleod
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <p class="font-weight-bold m-0 p-0">Biography</p>
+                <p>
+                    My name is Scott MacLeod.
+                </p>
+
+                <p class="font-weight-bold m-0 p-0">Research Interests</p>
+                <p>
+                    Coming soon...
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

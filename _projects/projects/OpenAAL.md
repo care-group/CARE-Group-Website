@@ -7,14 +7,7 @@ description: |
   OpenAAL targets the co-creation of scalable and affordable care solutions.
 
 people:
-  - alexandre-colle
-  - mauro-dragone
-  - scott-macleod
-  - ronnie-smith
-  - marta-vallejo
-  - meriam-moujahid
-  - petros-papadopoulos
-  - ashwin-rajendran
+  - care-group
 
 layout: project
 last-updated: 2020-03-25
