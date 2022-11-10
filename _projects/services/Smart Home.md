@@ -16,7 +16,7 @@ last-updated: 2021-03-24
 <!--<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/ralt.png" height="60pt"> -->
 
 <p>
-We look after the IoT instrumentation of our <a href="https://care.hw.ac.uk/img/testbeds.html">testbeds</a>. We are expert in smart home software, voice assistants, home automation and related standards.  
+We look after the IoT instrumentation of our <a href="http://care.hw.ac.uk/img/testbeds.html">testbeds</a>. We are expert in smart home software, voice assistants, home automation and related standards.  
 </p>
 
 <p>
