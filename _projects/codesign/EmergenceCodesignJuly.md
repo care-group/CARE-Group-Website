@@ -27,8 +27,8 @@ The network aims to create, foster and facilitate co-designed, co-delivered and 
 Eight older adults and five healthcare experts with expertise on self-management/prevention came together with roboticists and designers from the EMERGENCE network to explore how robotic technology may be used to provide better support to people living with frailty.
 </p>
 
-<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/emergence_workshop_1.png" height="60pt">
-<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/emergence_workshop_2.png" height="60pt">
+<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/emergence_workshop_1.png" height="300pt">
+<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/emergence_workshop_2.png" height="300pt">
 
 <p>
 The workshops were hosted at the University of Edinburgh with the support of the Advanced Care Research Centre.
@@ -39,7 +39,7 @@ We used the double diamond co-design method. The first “Discover” workshop, 
 The group reconvened on the 15th of July, in a “Define” workshop, to work together to identify and evaluate the acceptability and feasibility of potential health technology solutions which address the issues identified in the first workshop.
 </p>
 
-<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/emergence_workshop_sam_board.jpg" height="60pt">
+<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/emergence_workshop_sam_board.jpg" height="400pt">
 
 <p>
 Overall participants have been very interested in hearing about possible uses of robotic technology to support self-management of frailty. In particular, the discussion has highlighted the following priorities:
