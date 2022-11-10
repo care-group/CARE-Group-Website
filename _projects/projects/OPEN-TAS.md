@@ -15,8 +15,6 @@ last-updated: 2021-06-05
 
 <img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/logos/ukri-tas.png" height="60pt">
 
-## About
-
 <p>
 Responsible research and innovation requires engaging openly with the wider public about research plans and activities in TAS.
 </p>

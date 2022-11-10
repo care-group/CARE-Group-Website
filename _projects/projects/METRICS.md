@@ -18,7 +18,6 @@ last-updated: 2020-03-25
 
 <img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/logos/metrics.png" height="60pt">
 
-## About
 
 <p>
 METRICS (Metrological Evaluation and Testing of Robots in International CompetitionS) organises challenge-led and industry-relevant competitions in the four Priority Areas (PAs) identified by ICT-09-2019-2020: Healthcare, Infrastructure Inspection and Maintenance (I&M), Agri-Food, and Agile Production.

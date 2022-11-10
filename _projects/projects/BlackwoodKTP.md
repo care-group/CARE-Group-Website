@@ -17,7 +17,7 @@ last-updated: 2021-03-24
 
 <img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/logos/blackwood.png" height="60pt">
 
-## About
+<!-- ## About -->
 
 <p>
 This Innovate UK Knowledge Transfer Partnership (KTP) project is a collaboration between the CARE group and <a href="https://www.blackwoodgroup.org.uk/">Blackwood Homes and Care></a>, a Housing Association and care provider with over 100 developments across mainland Scotland. It was founded in 1972 by Dr Margaret Blackwood MBE, a campaigner for the rights and independence of disabled people.

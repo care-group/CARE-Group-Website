@@ -13,7 +13,6 @@ layout: project
 last-updated: 2020-03-25
 ---
 
-## About
 
 <p>
 The Open Ambient Assisted Living (OpenAAL) project targets the fast co-creation of scalable and affordable solutions to support the care of vulnerable people whose urgent need has been exemplified by the COVID-19 pandemic.      

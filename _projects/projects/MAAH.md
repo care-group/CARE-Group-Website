@@ -15,7 +15,6 @@ last-updated: 2020-03-25
 
 <img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/projects/maah.jpg" height="200pt">
 
-## About
 
 <p>
 Through elegant design and inspiration from home decor, the Maah, exists to encourage social interaction. Similar to a pet, the Maah will respond and communicate through body language and sound expression. Its fully articulated body is made of lightweight 3D printed material, and its skin made using 3D knitting invite customisation.
