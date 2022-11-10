@@ -1,5 +1,5 @@
 ---
-title: Summer School
+title: Ambient Assisted Living (AAL) Summer School
 type: service
 notitle: false
 

@@ -23,7 +23,7 @@ Our Robotics + Care Mashup brings together academics, care providers and technol
 The mashup includes product development sessions and workshops from companies providing technical support, including APIs and sensor kits, and talks from international experts discussing topics such as ethics and cybersecurity for robotic assistive systems.
 </p>
 
-<p>Read more information in our <a href="https://care.hw.ac.uk/downloads/OpenAAL_FAQs.pdf"Q&A document</a> and register to our community hub on <a href="https://vi.to/hubs/robotics-care-mashup"Vi.to</a> to learn about our first Robotic + Care Mashup, which we run in May 2021. 
+<p>Read more information in our <a href="https://care.hw.ac.uk/downloads/OpenAAL_FAQs.pdf">Q&A document</a> and register to our community hub on <a href="https://vi.to/hubs/robotics-care-mashup">Vi.to</a> to learn about our first Robotic + Care Mashup, which we run in May 2021. 
 The event gathered around 140 attendees (20% from SMEs & AT companies, 60% from academy, 20% from healthcare organisations).
 You will be able to access the recording of 14 talks from international experts (on topics such as IoT, Ethics, Cybersecurity, Social Robotics, AAL), 3 co-design sessions (chaired by DHI) and mentoring sessions (from DHI, InnoScot and University of Edinburgh’s Design Informatics), and also browse posts and content to learn about technology providers and ethics, design thinking, and accessibity guidelines for robotics and assistive techology.
 </p>

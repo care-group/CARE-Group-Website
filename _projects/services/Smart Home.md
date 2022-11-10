@@ -1,5 +1,5 @@
 ---
-title: Smart Home
+title: Smart Home and Smart Sensing for Home Activity Monitoring.
 type: service
 notitle: false
 
