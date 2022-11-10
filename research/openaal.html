@@ -1,0 +1,31 @@
+---
+layout: default
+title: Projects
+notitle: true
+---
+
+<h2 style="padding-bottom:10pt;">Current Projects</h2>
+<div class="card-columns" style="padding-bottom:10pt;">
+    {% assign projects = site.projects | sort: 'title' %}
+    {% for p in projects %}
+        {% if p.type == "project" %}
+            {% include project-card.html project=p %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<h2 style="padding-bottom:10pt;">Past Projects</h2>
+<div class="card-columns" style="padding-bottom:10pt;">
+    {% assign projects = site.past-projects | sort: 'title' %}
+    {% for p in projects_by_date %}
+        {% include project-card.html project=p %}
+    {% endfor %}
+</div>
+
+<!-- 
+{% assign projects_by_date = site.past-projects | sort: 'last-updated', 'first' %}
+{% assign projects = site.past-projects | sort: 'title' %}
+{% assign projects_by_date = projects_by_date | reverse %}
+{% for p in projects_by_date %}
+    {% include project-card.html project=p %}
+{% endfor %} -->
