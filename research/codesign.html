@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Projects
+title: Co-Design Projects
 notitle: true
 ---
 
 <h2 style="padding-bottom:10pt;">Co-Design Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
-    {% assign projects = site.codesign | sort: 'title' %}
+    {% assign projects = site.projects | sort: 'title' %}
     {% for p in projects %}
         {% if p.type == "codesign" %}
             {% include project-card.html project=p %}
