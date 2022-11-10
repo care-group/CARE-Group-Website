@@ -47,11 +47,12 @@ Overall participants have been very interested in hearing about possible uses of
     <li>Performing physical tasks and activities in and outside the home</li>
     <li>Coping with psychological pressures</li>
     <li>The cognitive burdens of ageing</li>
-</lu>
+</ul>
 </p>
 
 <p>
 In addition to this, a number of barriers to the adoption and deployment of robots in the real world have also been identified; these include:
+<ul>
     <li>Safety concerns</li>
     <li>Incompatibility with lifestyle and living environments</li>
     <li>The need for maintenance and the added burden of use</li>
@@ -59,7 +60,7 @@ In addition to this, a number of barriers to the adoption and deployment of robo
     <li>The need for readily customisable or personalisable solutions</li>
     <li>Difficulty of integration with existing technologies and connected devices</li>
     <li>Unclear financial implications and service models</li>
-</lu>
+</ul>
 </p>
 
 <p>
