@@ -1,6 +1,6 @@
 ---
 title: Smart Home
-type: project
+type: service
 notitle: false
 
 description: |
