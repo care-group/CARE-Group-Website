@@ -1,26 +1,47 @@
 ---
 layout: default
-title: Projects
+title: OpenAAL
 notitle: true
 ---
+
+<p>Welcome to OpenAAL - An Open Laboratory for Robotic and Ambient Assisted Living (AAL) research, managed by the CARE Group at the National Robotarium, Heriot-Watt University, Edinburgh.
+</p>
+
+<p>OpenAAL is an open and remote access living lab designed to accelerate the creation of innovative, sustainable and affordable solutions for healthy ageing and indipendent living systems. 
+</p>
+
+<p>OpenAAL provides the UK National Robotarium with a place that researchers, technology and industry users can use to co-create technology, where time and distance is no longer a barrier – any time, any place access. It offers a series of services for the rapid development of ambient assisted living solutions, which can be accessed, both physically, at the National Robotarium, and remotely.
+</p>
+
+<p>In a separate frame: Ambient Assisted Living (AAL) is a term used to describe technology and processes implemented within home and care facilities with the intent to create a more natural environment to sustain healthy physical and mental health. Autonomous, robotics and interactive systems (RAIS) technologies are increasingly proposed as part of these systems. They can provide active monitoring as well as social and cognitive support, and take immediate action in case of emergencies.
+</p>
+
+<p>Heriot-Watt University has unique laboratory facilities and world-leading expertise in many of the underpinning technologies, including microsystems, (wireless) sensing, antenna, microwave and embedded systems, signal processing, data science, machine learning, Internet of Things (IoT), Artificial Intelligence (AI), human-computer-interaction and Robotics.
+</p>
+
+<p>Initially funded by EPSRC under the Impact Acceleration Award schema to target the fast co-creation of scalable and affordable assistive technology during the COVID-19 pandemic, OpenAAL now provides an open platform where researchers, industry and care providers alongside end users of assisted living services can co-create AAL technology. We use  tele-presence robotic, Digital Twin and Cloud technologies, to offer real-time interaction with the sensing, automation and robotic equipment in our testbeds. This transforms  them into collaborative working environments that can be programmed, shared and monitored, over the World Wide Web, connecting the researchers in our testbeds with developers and end-users around the World.
+</p>
+
+<p>OpenAAL promotes knowledge transfer, collaboration and innovation through the National Robotarium, and amplifies Heriot-Watt University’s learning and teaching capacity by:
+<ul>
+    <li>Supporting R&D&I in AAL and Assistive Robotics, using remote desk and dedicated software to grant access to our lab workstations, smart homes and robots, remotely. Developers, innovators and students can use these facilities to install and test their software. They can also collect datasets that they can use to train machine learning and data analytic models, e.g. for home activity monitoring applications.</li>
+    <li>Enabling the rapid development of proof-of-concepts robotic and AAL concepts, and their quick deployment into actual testbeds, for testing and evaluation purposes, by using workspace templates (based on cloud-based containerization technology) that can be cloned and customised, to meet the requirements of new projects. </li>
+    <li>Enabling the rapid re-configuration of the software infrastructure used in our physical testbeds, so that they can be more easily shared amongst different research groups and concurrent projects</li>
+    <li>Enabling demonstrations of robotic, autonomous and interactive technology as part of AAL systems to support co-design activities with health and social care stakeholders.</li>
+    <li>Supporting opportunities for cross-training of a new generation of AI, data science, IoT and robotics researchers, and for preparing a healthcare workforce capable of delivering future care models.</li>
+</ul>
+</p>
 
 <h2 style="padding-bottom:10pt;">Current Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
     {% assign projects = site.projects | sort: 'title' %}
     {% for p in projects %}
-        {% if p.type == "project" %}
+        {% if p.type == "service" %}
             {% include project-card.html project=p %}
         {% endif %}
     {% endfor %}
 </div>
 
-<h2 style="padding-bottom:10pt;">Past Projects</h2>
-<div class="card-columns" style="padding-bottom:10pt;">
-    {% assign projects = site.past-projects | sort: 'title' %}
-    {% for p in projects_by_date %}
-        {% include project-card.html project=p %}
-    {% endfor %}
-</div>
 
 <!-- 
 {% assign projects_by_date = site.past-projects | sort: 'last-updated', 'first' %}
