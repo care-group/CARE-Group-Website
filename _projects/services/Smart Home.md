@@ -16,7 +16,7 @@ last-updated: 2021-03-24
 <!--<img style="padding-top:5pt;" src="https://care.hw.ac.uk/img/ralt.png" height="60pt"> -->
 
 <p>
-We look after the IoT instrumentation of our <a href="http://care.hw.ac.uk/img/testbeds.html">testbeds</a>. We are expert in smart home software, voice assistants, home automation and related standards.  
+We look after the IoT instrumentation of our <a href="http://care.hw.ac.uk/testbeds.html">testbeds</a>. We are expert in smart home software, voice assistants, home automation and related standards.  
 </p>
 
 <p>
@@ -34,3 +34,7 @@ We have developed software to capture complex, interleaved and hierarchical natu
 <p>
 Get in touch if you want more information about any of our existing datasets or if you are a company of assistive products or a care provider requiring our expertise in IoT, machine learning and home activity monitoring technology.
 </p>
+
+## Links
+
+1. <a href="http://care.hw.ac.uk/projects/projects/OXLABS.html">OpenAAL helping OXLABS Ltd to develop habitaHub</a>
