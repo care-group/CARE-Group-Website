@@ -1,0 +1,336 @@
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+}
+
+.header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    /* padding-top: 19px;
+    */
+    color: #999;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 0.8em;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer a:link,
+.footer a:visited {
+    color: #999;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.fa {
+    color: #999;
+}
+
+a>.fa {
+    display: inline;
+}
+
+/* Jumbotron */
+.jumbotron {
+    text-align: justify;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-size: 125%;
+}
+
+/* Group logo */
+#logo {
+    width: 290px;
+    margin: 2px 0 8px 0;
+}
+
+.affiliation {
+    width: 70%;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .affiliation {
+        width: 70%;
+    }
+}
+
+/* Front page news. */
+ul.news .date {
+    color: #999;
+    font-weight: bold;
+}
+
+ul.news>li {
+    margin-top: 1em;
+}
+
+@media (min-width: 576px) {
+    .project-people {
+        column-count: 2;
+    }
+
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .role.grad {
+        column-count: 1;
+    }
+
+    .project-people {
+        column-count: 3;
+    }
+
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+.title img {
+    max-width: 50%;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.profile {
+    object-fit: cover;
+}
+
+.noprofile circle {
+    fill: #eee;
+}
+
+.noprofile text {
+    font-weight: 700;
+    fill: white;
+}
+
+.card .profile {
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+}
+
+.card .card-footer {
+    padding: 0.5em;
+}
+
+.person {
+    margin-bottom: 10px;
+}
+
+.person .profile {
+    height: 70px;
+    width: 70px;
+}
+
+.person .bio {
+    color: #999;
+}
+
+.person .affiliation {
+    color: #999;
+}
+
+.person .person-name {
+    margin: 0;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+/* Floating Social Media Bar Style Starts Here */
+.twitter {
+    font: normal normal 10px Arial;
+    text-align: center;
+    color: #998578;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.twitter {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 14px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+}
+
+.fl-fl {
+    background: #2e3192;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 190px;
+    position: fixed;
+    right: -145px;
+    z-index: 1000;
+    font: normal normal 10px Arial;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.fl-fl:hover,
+.fl-fl:active {
+    right: 0;
+}
+
+.fl-fl a {
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px !important;
+    vertical-align: top !important;
+}
+
+.float-gh {
+    bottom: 70px;
+}
+
+.float-ig {
+    bottom: 10px;
+}
+
+/* Research Page */
+.grid-container-research {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240pt, 1fr));
+    background-color: white;
+    margin-bottom: 20pt;
+}
+
+.grid-item-research {
+    background-image: url("https://care.hw.ac.uk/img/HSR2.png");
+    background-color: #33358f;
+    background-blend-mode: overlay;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    background-size: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding: 70px 0;
+    margin: 2pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
+
+.grid-item-openaal {
+    background-image: url("https://care.hw.ac.uk/img/idents/ident_2.png");
+    background-color: #33358f;
+    background-blend-mode: overlay;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    background-size: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding: 70px 0;
+    margin: 2pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
+
+.grid-item-codesign {
+    background-image: url("https://care.hw.ac.uk/img/artwork.png");
+    background-color: #33358f;
+    background-blend-mode: overlay;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    background-size: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding: 70px 0;
+    margin: 2pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
+
+/* Home Banner Containers */
+.grid-container-home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240pt, 1fr));
+    background-color: white;
+    margin-bottom: 20pt;
+}
+
+.grid-item-home-video {
+    /* background-image: url("https://care.hw.ac.uk/img/artwork.png"); */
+    background-color: #33358f;
+    background-blend-mode: overlay;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    background-size: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    /* padding: 100px 0; */
+    height: 240pt;
+    margin: 2pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
+
+.grid-item-home-sidekick {
+    background-image: url("https://care.hw.ac.uk/img/idents/ralt_2.png");
+    background-color: #33358f;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    /* padding: 20px; */
+    text-align: center;
+    color: white;
+    margin: 2pt;
+    vertical-align: middle;
+    padding: 110px 20px;
+}
+
+.grid-item-home-sidekick-title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+}
+
+.grid-item-home-sidekick-subtext {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: normal;
+    text-align: left;
+    font-size: 18px;
+    width: 90%;
+}

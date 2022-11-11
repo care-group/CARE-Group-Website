@@ -20,13 +20,25 @@ role-tables:
 
 ---
 
-
-
 <div class="jumbotron">
     <p>
         The <b>C</b>ognitive <b>A</b>ssistive <b>R</b>obotic <b>E</b>nvironments (<b>CARE</b>) Group focus is on enabling robotic, autonomous and interactive systems to provide user-centered living support.
-        We lead <a href="http://care.hw.ac.uk/research/openaal.html">Open Ambient Assisted Living (OpenAAL)</a>, an open lab to accellerate the creation of innovative, sustainable and affordable solutions for healthy ageing and indipendent living systems from the <b><a href="https://www.thenationalrobotarium.com/">UK National Robotarium</a></b>. 
+        We lead <b><a href="http://care.hw.ac.uk/research/openaal.html">Open Ambient Assisted Living (OpenAAL)</a></b>, an open lab to accellerate the creation of innovative, sustainable and affordable solutions for healthy ageing and indipendent living systems from the <b><a href="https://www.thenationalrobotarium.com/">UK National Robotarium</a></b>. 
     </p>
+</div>
+
+<div class="grid-container-home">
+    <div class="grid-item-home-video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GjtcLn9ZOnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="grid-item-home-sidekick">
+        <div class="grid-item-home-sidekick-title">
+            Some title
+        </div>
+        <div class="grid-item-home-sidekick-subtext">
+            This is some kind of descriptive text to go below the title. What could it be?
+        </div>   
+    </div>
 </div>
 
 <section>
@@ -46,37 +58,6 @@ role-tables:
         </p>
     {% endif %}
 </section>
-
-<!-- <section>
-    <h2>Research</h2>
-    <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
-</section>
-
-<div id="people">
-    <h2>People</h2>
-    {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
-    {% endfor %}
-</div> -->
 
 <div id="funding">
     <h2>Funding</h2>
