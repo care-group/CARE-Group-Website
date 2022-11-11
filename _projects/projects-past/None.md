@@ -1,6 +1,7 @@
 ---
 title: Noting to show.
 notitle: false
+type: project-past
 
 description: |
   There are currently no projects in this category.
