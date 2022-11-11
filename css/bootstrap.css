@@ -4506,6 +4506,9 @@ tbody.collapse.show {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .card-footer:last-child {
@@ -4683,7 +4686,7 @@ tbody.collapse.show {
     column-gap: 1.25rem;
   }
   .card-columns .card {
-    display: inline-block;
+    display: flex;
     width: 100%;
   }
 }

@@ -29,6 +29,13 @@
                 {{  project.years }}
             </h6>
         {% endif %}
+        {% if project.tags %}
+            {% for tag in project.tags %}
+                <div class="tags">
+                    <div class="tag tag-purple">{{tag}}</div>
+                </div>
+            {% endfor %}
+        {% endif %}
         {% if project.subtitle != null and project.subtitle != "" %}
             <h6 class="card-subtitle mb-2 text-muted">
                 {{  project.subtitle }}

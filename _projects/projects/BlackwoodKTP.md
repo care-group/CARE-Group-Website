@@ -1,8 +1,11 @@
 ---
-title: KTP with Blackwood Homes and Care
+title: Blackwood Homes &amp; Care
 type: project
 notitle: false
 years: 2022 - 2024
+
+tags:
+  - KTP
 
 description: |
   Telepresence robots for 24/7 telecare response service.

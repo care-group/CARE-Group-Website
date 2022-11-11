@@ -2,6 +2,10 @@
 title: OXLABS
 type: project
 notitle: false
+years: 2022
+
+tags:
+  - Scottish Catalyst
 
 description: |
   Telepresence robots for 24/7 telecare response service.

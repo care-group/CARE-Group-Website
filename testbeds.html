@@ -15,9 +15,8 @@ notitle: true
 
 <h2 style="padding-bottom:10pt;">Testbeds</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
-    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
+    {% assign projects = site.projects %}
+    {% for p in projects %}
         {% if p.type == "testbed" %}
             {% include project-card.html project=p %}
         {% endif %}

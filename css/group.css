@@ -88,7 +88,8 @@ ul.news>li {
     }
 
     .card-columns {
-        column-count: 2;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200pt, 1fr));
     }
 }
 
@@ -102,7 +103,8 @@ ul.news>li {
     }
 
     .card-columns {
-        column-count: 3;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200pt, 1fr));
     }
 }
 
@@ -317,7 +319,7 @@ svg {
     color: white;
     margin: 2pt;
     vertical-align: middle;
-    padding: 110px 20px;
+    padding: 70px 20px;
 }
 
 .grid-item-home-sidekick-title {
@@ -333,4 +335,24 @@ svg {
     text-align: left;
     font-size: 18px;
     width: 90%;
+}
+
+/* Projects Tag */
+
+.tags .tag {
+    margin-right: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    color: #fff;
+    background: #9e9e9e;
+    box-shadow: 0 2px 4px #eee;
+    width: auto;
+    margin-bottom: 5pt;
+}
+
+.tags .tag-purple {
+    background: #33358f;
+    display: inline-block;
 }
