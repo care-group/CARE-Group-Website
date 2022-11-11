@@ -2,6 +2,7 @@
 title: ERAS
 type: project
 notitle: false
+years: 2022 - 2023
 
 description: |
   Ethics Machines for Robotics, Autonomous and Interactive Systems.

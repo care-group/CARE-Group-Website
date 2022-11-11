@@ -2,6 +2,7 @@
 title: OPEN-TAS
 type: project
 notitle: false
+years: 2022
 
 description: |
   An open laboratories programme for Trustworthy Autonomous Systems (TAS).

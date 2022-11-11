@@ -1,5 +1,5 @@
 ---
-title: OXLABS, 2022-24
+title: OXLABS
 type: project
 notitle: false
 
