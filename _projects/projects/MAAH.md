@@ -2,6 +2,7 @@
 title: MAAH
 type: project
 notitle: false
+years: 2019 - PRESENT
 
 description: |
   Part of Alex's PhD work, Maah is a new species of alternative pet.

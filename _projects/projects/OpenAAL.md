@@ -2,6 +2,7 @@
 title: OpenAAL
 type: project
 notitle: false
+years: 2020 - PRESENT
 
 description: |
   OpenAAL targets the co-creation of scalable and affordable care solutions.
