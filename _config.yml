@@ -58,8 +58,8 @@ collections:
 
 # Navigation bar links.
 navigation:
-#  - title: Home
-#    link: /
+  - title: Home
+    link: /
   - title: People
     link: /people.html
   - title: Research
