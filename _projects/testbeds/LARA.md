@@ -1,6 +1,7 @@
 ---
 title: LARA
 type: testbed
+image: https://care.hw.ac.uk/img/NR.jpg
 notitle: false
 
 description: |
