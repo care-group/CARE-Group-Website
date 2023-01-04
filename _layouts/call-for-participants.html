@@ -5,15 +5,15 @@ layout: default
 
 {{ content }}
 
-<h2>How to take part</h2>
-If you you have any questions please get in touch with the researchers running the study:
+<h2>How can I take part?</h2>
+Please get in touch with the researchers running the study:
 <ul style="padding-top:10pt;">
 {% for contact in page.contacts %}
     <li><b>{{ contact.name }}</b><br><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
 {% endfor %}
 </ul>
 
-<h2>Ethics</h2>
+<h2>Who has reviewed the study?</h2>
 {% if page.ethics %}
     This research has been reviewed by the Ethics Committee in the School of {{ page.ethics.school }} at Heriot-Watt University, project number {{ page.ethics.approval-number }}.
 {% else %}
