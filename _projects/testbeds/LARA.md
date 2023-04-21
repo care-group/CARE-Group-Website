@@ -1,11 +1,11 @@
 ---
-title: LARA
+title: Laboratory for Robotic Assisted Living (LARA)
 type: testbed
 image: https://care.hw.ac.uk/img/NR.jpg
 notitle: false
 
 description: |
-  Laboratory for Robotics and Assistive Living
+  Laboratory for Robotic Assisted Living
 
 layout: project
 last-updated: 2021-03-24

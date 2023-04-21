@@ -222,66 +222,7 @@ svg {
     bottom: 10px;
 }
 
-/* Research Page */
-.grid-container-research {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240pt, 1fr));
-    background-color: white;
-    margin-bottom: 20pt;
-}
-
-.grid-item-research {
-    background-image: url("https://care.hw.ac.uk/img/HSR2.png");
-    background-color: #33358f;
-    background-blend-mode: overlay;
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    background-size: 100%;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    vertical-align: middle;
-    padding: 70px 0;
-    margin: 2pt;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: bold;
-}
-
-.grid-item-openaal {
-    background-image: url("https://care.hw.ac.uk/img/idents/ident_2.png");
-    background-color: #33358f;
-    background-blend-mode: overlay;
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    background-size: 100%;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    vertical-align: middle;
-    padding: 70px 0;
-    margin: 2pt;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: bold;
-}
-
-.grid-item-codesign {
-    background-image: url("https://care.hw.ac.uk/img/artwork.png");
-    background-color: #33358f;
-    background-blend-mode: overlay;
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    background-size: 100%;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    vertical-align: middle;
-    padding: 70px 0;
-    margin: 2pt;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: bold;
-}
-
-/* Home Banner Containers */
+/* Home Page */
 .grid-container-home {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240pt, 1fr));
@@ -289,36 +230,26 @@ svg {
     margin-bottom: 20pt;
 }
 
-.grid-item-home-video {
-    /* background-image: url("https://care.hw.ac.uk/img/artwork.png"); */
-    background-color: #33358f;
+.grid-item-home {
+    background-color: rgba(51, 53, 143, 1.0);
     background-blend-mode: overlay;
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    background-size: 100%;
-    padding: 20px;
-    font-size: 30px;
+    border: 0px solid rgba(0, 0, 0, 0.8); 
     text-align: center;
     color: white;
     vertical-align: middle;
-    /* padding: 100px 0; */
-    height: 240pt;
     margin: 2pt;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: bold;
+}
+
+.grid-item-home-video {
+    padding: 20px;
+    font-size: 30px;
+    height: 240pt;
 }
 
 .grid-item-home-sidekick {
     background-image: url("https://care.hw.ac.uk/img/idents/ralt_2.png");
-    background-color: #33358f;
-    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    /* padding: 20px; */
-    text-align: center;
-    color: white;
-    margin: 2pt;
-    vertical-align: middle;
     padding: 70px 20px;
 }
 
@@ -335,6 +266,74 @@ svg {
     text-align: left;
     font-size: 18px;
     width: 90%;
+}
+
+/* Testbeds Page */
+
+.grid-container-testbeds {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240pt, 1fr));
+    background-color: white;
+    margin-bottom: 20pt;
+}
+
+.grid-item-testbed {
+    background-color: rgba(51, 53, 143, 0.5);
+    background-blend-mode: overlay;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    background-size: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding: 120px 0;
+    margin: 2pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
+
+.grid-item-testbed-lara {
+    background-image: url("https://care.hw.ac.uk/img/NR.jpg");
+}
+
+.grid-item-testbed-ralt {
+    background-image: url("https://care.hw.ac.uk/img/ralt.png");
+}
+
+/* Research Page */
+.grid-container-research {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240pt, 1fr));
+    background-color: white;
+    margin-bottom: 20pt;
+}
+
+.grid-item-research {
+    background-color: rgba(51, 53, 143, 1);
+    background-blend-mode: overlay;
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    background-size: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding: 70px 0;
+    margin: 2pt;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
+.grid-item-research-research {
+    background-image: url("https://care.hw.ac.uk/img/HSR2.png");
+}
+
+.grid-item-research-openaal {
+    background-image: url("https://care.hw.ac.uk/img/idents/ident_2.png");
+}
+
+.grid-item-research-codesign {
+    background-image: url("https://care.hw.ac.uk/img/artwork.png");
 }
 
 /* Projects Tag */

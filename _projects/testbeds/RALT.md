@@ -1,5 +1,5 @@
 ---
-title: RALT
+title: Robotic Assisted Living Testbed (RALT)
 type: testbed
 image: https://care.hw.ac.uk/img/ralt.png
 notitle: false

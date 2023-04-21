@@ -7,19 +7,11 @@ notitle: true
 <p style="padding-top:10pt; padding-bottom:10pt;">
     We have expertise in designing and running physical testbeds, ‘Living-Lab' home-like environments, which we instrument to facilitate user-driven design and testing of innovative solutions for healthy ageing and independent living. 
     
-    These include the <a href="http://ralt.hw.ac.uk">Robotic Assisted Living Testbed (RALT)</a>, which we setup in 2017, and the Laboratory for Robotics and Assistive Living (LARA), launched in 2022. We use these physical spaces to develop, demonstrate and evaluate IoT and robotic technology working together to assist humans, triage issues and facilitate communication and connectivity as part of personalised and connected social care practices. 
+    These include the <a href="http://ralt.hw.ac.uk">Robotic Assisted Living Testbed (RALT)</a>, which we setup in 2017, and the Laboratory for Robotic Assisted Living (LARA), launched in 2022. We use these physical spaces to develop, demonstrate and evaluate IoT and robotic technology working together to assist humans, triage issues and facilitate communication and connectivity as part of personalised and connected social care practices. 
     
     Visit our <a href="http://openaal.com/">OpenAAL</a> page, to view the range of services and resources offered through our testbeds and our open lab facilities.
 
-</p>
-
-<h2 style="padding-bottom:10pt;">Testbeds</h2>
-<div class="card-columns" style="padding-bottom:10pt;">
-    {% assign projects = site.projects %}
-    {% for p in projects %}
-        {% if p.type == "testbed" %}
-            {% include project-card.html project=p %}
-        {% endif %}
-    {% endfor %}
+</p><div class="grid-container-testbeds">
+    <div class="grid-item-testbed grid-item-testbed-lara"><a href="/projects/testbeds/LARA.html" style="color:white">LARA</a></div>
+    <div class="grid-item-testbed grid-item-testbed-ralt"><a href="/projects/testbeds/RALT.html" style="color:white">RALT</a></div> 
 </div>
-
