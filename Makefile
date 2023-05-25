@@ -5,6 +5,9 @@ all: build
 
 BIBBLE = bibble
 
+# to run on the command line
+# from inside root directory
+# bibble bib/pubs.bib bib/publications.tmpl > _includes/pubs.html
 _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
 	# $(BIBBLE) $+ > $@
