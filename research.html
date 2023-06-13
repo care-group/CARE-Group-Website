@@ -26,17 +26,15 @@ For us, the term 'Cognitive Assistive Robotic Environments' embodies a vision: a
 <ul class="news list-unstyled">
     {% assign total = 0 %}
     {% for post in site.posts %}
-       {% if post.type == "call-for-participants" %}
-        {% assign total = total | plus: 1 %}
-       {% endif %}
+        {% if post.type == "call-for-participants" %}
+            {% if post.active == true %}
+                {% include call-for-participants-item.html item=post %}
+                {% assign total = total | plus: 1 %}
+            {% endif %}
+        {% endif %}
     {% endfor %}
     {% if total == 0 %}
         <p>Sorry, there are currently no open calls for participants. Please check back later.</p>
     {% endif %}
-    {% for post in site.posts %}
-        {% if post.type == "call-for-participants" %}
-            {% include call-for-participants-item.html item=post %}
-        {% endif %}
-    {% endfor %}
 </ul>
 <br>

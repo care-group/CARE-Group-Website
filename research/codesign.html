@@ -16,16 +16,9 @@ We help care organisations to explore potential use of these technologies as par
 <h2 style="padding-bottom:10pt;">Co-Design Highlights</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
     {% assign projects = site.projects | sort: 'title' %}
-    {% for p in projects %}
-        {% if p.type == "codesign" %}
-            {% include project-card.html project=p %}
+    {% for post in projects %}
+        {% if post.type == "codesign" %}
+            {% include project-card.html project=post %}
         {% endif %}
     {% endfor %}
 </div>
-<!-- 
-{% assign projects_by_date = site.past-projects | sort: 'last-updated', 'first' %}
-{% assign projects = site.past-projects | sort: 'title' %}
-{% assign projects_by_date = projects_by_date | reverse %}
-{% for p in projects_by_date %}
-    {% include project-card.html project=p %}
-{% endfor %} -->

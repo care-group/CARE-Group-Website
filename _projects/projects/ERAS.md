@@ -1,8 +1,12 @@
 ---
 title: ERAS
 type: project
+active: true
 notitle: false
 years: 2022 - 2023
+
+tags:
+  - RSE
 
 description: |
   Ethics Machines for Robotics, Autonomous and Interactive Systems.

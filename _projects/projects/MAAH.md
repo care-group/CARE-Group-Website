@@ -1,8 +1,12 @@
 ---
 title: MAAH
 type: project
+active: true
 notitle: false
 years: 2019 - PRESENT
+
+tags:
+  - EPSRC
 
 description: |
   Part of Alex's PhD work, Maah is a new species of alternative pet.

@@ -1,6 +1,7 @@
 ---
 title: Blackwood Homes &amp; Care
 type: project
+active: true
 notitle: false
 years: 2022 - 2024
 

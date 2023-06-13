@@ -7,9 +7,11 @@ notitle: true
 <h2 style="padding-bottom:10pt;">Current Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
     {% assign projects = site.projects | sort: 'title' %}
-    {% for p in projects %}
-        {% if p.type == "project" %}
-            {% include project-card.html project=p %}
+    {% for post in projects %}
+        {% if post.type == "project" %}
+            {% if post.active == true %}
+                {% include project-card.html project=post %}
+            {% endif %}
         {% endif %}
     {% endfor %}
 </div>
@@ -17,9 +19,11 @@ notitle: true
 <h2 style="padding-bottom:10pt;">Past Projects</h2>
 <div class="card-columns" style="padding-bottom:10pt;">
     {% assign projects = site.projects | sort: 'title' %}
-    {% for p in projects %}
-        {% if p.type == "project-past" %}
-            {% include project-card.html project=p %}
+    {% for post in projects %}
+        {% if post.type == "project" %}
+            {% if post.active == false %}
+                {% include project-card.html project=post %}
+            {% endif %}
         {% endif %}
     {% endfor %}
 </div>

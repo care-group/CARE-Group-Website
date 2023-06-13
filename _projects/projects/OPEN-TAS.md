@@ -1,8 +1,12 @@
 ---
 title: OPEN-TAS
 type: project
+active: true
 notitle: false
 years: 2022
+
+tags:
+  - UKRI
 
 description: |
   An open laboratories programme for Trustworthy Autonomous Systems (TAS).

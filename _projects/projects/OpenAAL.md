@@ -1,8 +1,12 @@
 ---
 title: OpenAAL
 type: project
+active: true
 notitle: false
 years: 2020 - PRESENT
+
+tags:
+  - EPSRC
 
 description: |
   OpenAAL targets the co-creation of scalable and affordable care solutions.

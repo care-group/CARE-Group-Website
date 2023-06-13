@@ -7,8 +7,10 @@ title: Vacancies
 {% assign total = 0 %}
 {% for post in site.posts %}
     {% if post.type == "vacancy" %}
-        {% include vacancy-item.html item=post %}
-        {% assign total = total | plus: 1 %}
+        {% if post.active == true %}
+            {% include vacancy-item.html item=post %}
+            {% assign total = total | plus: 1 %}
+        {% endif %}
     {% endif %}
 {% endfor %}
 {% if total == 0 %}
